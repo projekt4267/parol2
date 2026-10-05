@@ -1,0 +1,21 @@
+{
+  "name": "minecraft-server-bot",
+  "version": "1.0.0",
+  "description": "Simple Minecraft bot that connects to a server",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js"
+  },
+  "keywords": [
+    "minecraft",
+    "mineflayer",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "mineflayer": "^4.28.0"
+  }
+}
